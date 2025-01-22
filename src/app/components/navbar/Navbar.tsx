@@ -5,8 +5,8 @@ import React from "react";
 
 export function Navbar() {
   return (
-    <nav className="sticky top-0 z-50 bg-white p-4 shadow-sm flex justify-between items-center">
-      <div className="text-2xl sm:text-3xl md:text-4xl font-bold">My Portfolio</div>
+    <nav className="sticky top-0 z-50 bg-white p-4 shadow-sm flex justify-between xxs:cursor-none items-center">
+      <div className="text-2xl sm:text-3xl md:text-4xl xxs:cursor-none xxs:px-3 xxs:py-2 xxs:text-lg font-bold">My Portfolio</div>
       <div className="hidden md:flex space-x-4">
         <a href="#home" className="mx-2 text-lg sm:text-xl md:text-2xl">Home</a>
         <a href="#about" className="mx-2 text-lg sm:text-xl md:text-2xl">About</a>

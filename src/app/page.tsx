@@ -3,13 +3,11 @@
 
 import React, { useState } from "react";
 import { useEffect } from "react";
-import { Contact } from "./components/contact/Contact";
-
-import { About } from "./components/about/About";
-
-import { Navbar } from "./components/navbar/Navbar";
-import { Hero } from "./components/hero/Hero";
-import { Projects } from "./components/projects/Projects";
+import Contact from "./components/contact";
+import About  from "./components/about";
+import  Navbar  from "./components/navbar";
+import Hero from "./components/hero";
+import  Projects  from "./components/projects";
 
 export default function Page() {
   const [cursorVariant, setCursorVariant] = useState("default");
@@ -54,7 +52,7 @@ export default function Page() {
   }, []);
 
   return (
-    <main className={`bg-white text-black cursor-none ${cursorVariant}`}>
+    <main className={`bg-white text-black xxs:cursor-none cursor-none ${cursorVariant}`}>
       <div className="cursor-dot" data-cursor-dot></div>
       <div className="cursor-outline" data-cursor-outline></div>
       <Navbar />

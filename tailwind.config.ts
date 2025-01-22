@@ -7,14 +7,18 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens:{
+      'xxs': "320px",
+
+    },
     extend: {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
-      cursor:{
-        
-      }
+      
+
+
     },
   },
   plugins: [],
