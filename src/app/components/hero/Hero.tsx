@@ -8,7 +8,7 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-r from-blue-500 to-indigo-500 text-white p-8 text-center sm:p-6 md:p-8 lg:p-12 cursor-none"
+      className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-r from-blue-500 to-indigo-500 text-white p-8 text-center sm:p-6 md:p-8 lg:p-12 "
     >
       <h1 className="text-3xl sm:text-4xl md:text-5xl  font-extrabold mb-4 ">Hello, I am Ahmed Mubarak</h1>
       <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 max-w-md">

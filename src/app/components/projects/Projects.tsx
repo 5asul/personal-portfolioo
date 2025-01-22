@@ -23,7 +23,7 @@ const projects = [
 
 export function Projects() {
   return (
-    <section id="projects" className="py-16 min-h-screen xxs:cursor-none flex flex-col justify-center  items-center  bg-white text-gray-800 text-center">
+    <section id="projects" className="py-16 min-h-screen  flex flex-col justify-center  items-center  bg-white text-gray-800 text-center">
       <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-20">My Projects</h2>
       <div className="flex flex-col md:flex-row md:flex-wrap xxs:mx-4 justify-center items-center gap-8">
         {projects.map((project, index) => (

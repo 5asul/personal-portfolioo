@@ -20,6 +20,12 @@ export default function Page() {
       "[data-cursor-outline]"
     ) as HTMLElement;
 
+    if (!window.matchMedia("(pointer: fine)").matches) {
+      if (cursorDot) cursorDot.style.display = "none";
+      if (cursorOutline) cursorOutline.style.display = "none";
+      return;
+    }
+
     if (cursorDot && cursorOutline) {
       window.addEventListener("mousemove", function (e) {
         const posX = e.clientX;

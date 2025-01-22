@@ -21,7 +21,7 @@ export function Contact() {
   };
 
   return (
-    <section id="contact" className="py-16 min-h-screen flex flex-col  xxs:cursor-none xxs:px-3 xxs:py-2 xxs:text-sm justify-center items-center bg-gray-50 text-gray-800 text-center">
+    <section id="contact" className="py-16 min-h-screen flex flex-col  xxs:px-3 xxs:py-2 xxs:text-sm justify-center items-center bg-gray-50 text-gray-800 text-center">
       <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">Contact Me</h2>
       <form onSubmit={handleSubmit} className="w-full max-w-lg px-4 sm:px-6 md:px-8 ">
         <div className="mb-4">
