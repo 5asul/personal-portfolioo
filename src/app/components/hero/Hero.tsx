@@ -4,12 +4,14 @@
 
 import React from "react";
 
+
 export function Hero() {
   return (
     <section
       id="home"
       className="min-h-screen xxs:relative  flex flex-col justify-center   items-center bg-gradient-to-r from-blue-500 to-indigo-200 text-white p-8 text-center xxs:p-2 sm:p-6 md:p-8 lg:p-12"
     >
+      
       <div className="flex-col items-center md:absolute lg:absolute lg:top-80  xxs:absolute  xxs:top-56">
         <h1 className="text-3xl sm:text-3xl   lg:text-5xl font-extrabold mb-4 xxs:text-2xl">
           Hello, I am Ahmed Mubarak
@@ -37,7 +39,7 @@ export function Hero() {
       </div>
 
       <a href="#about">
-        <svg className=" relative xxs:top-80 xxs:left-12 animate-bounce w-24 h-24 xxs:h-16">
+        <svg className=" relative xxs:top-80 xxs:left-12 animate-bounce w-24 h-24 xxs:h-16 lg:top-[430px]">
           <path fill="currentColor" d="M0 0 L10 15 L20 0" />
         </svg>
       </a>
