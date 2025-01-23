@@ -63,7 +63,10 @@ export default function Page() {
       <div className="cursor-outline" data-cursor-outline></div>
       <Navbar />
       <Hero />
+      
+      
       <About />
+      
       <Projects />
       <Contact />
     </main>
